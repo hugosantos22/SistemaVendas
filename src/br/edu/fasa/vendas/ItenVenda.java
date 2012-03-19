@@ -10,11 +10,14 @@ package br.edu.fasa.vendas;
  */
 public class ItenVenda {
     private int codigo;
-    private Venda v = new Venda();
-    private Produto p = new Produto();
+    private Venda venda = new Venda();
+    private Produto produto = new Produto();
     private int quantidade;
     private float valor_unitario;
-
+    
+    public ItenVenda(){
+        
+    }
     /**
      * @return the codigo
      */
@@ -33,28 +36,28 @@ public class ItenVenda {
      * @return the v
      */
     public Venda getV() {
-        return v;
+        return venda;
     }
 
     /**
      * @param v the v to set
      */
     public void setV(Venda v) {
-        this.v = v;
+        this.venda = v;
     }
 
     /**
      * @return the p
      */
     public Produto getP() {
-        return p;
+        return produto;
     }
 
     /**
      * @param p the p to set
      */
     public void setP(Produto p) {
-        this.p = p;
+        this.produto = p;
     }
 
     /**

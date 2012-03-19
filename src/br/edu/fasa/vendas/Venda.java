@@ -12,9 +12,12 @@ import java.util.Date;
  */
 public class Venda {
     private int codigo;
-   private Cliente c =  new Cliente();
+   private Cliente cliente =  new Cliente();
    private Date data;
 
+   public Venda(){
+       
+   }
     /**
      * @return the codigo
      */
@@ -33,14 +36,14 @@ public class Venda {
      * @return the c
      */
     public Cliente getC() {
-        return c;
+        return cliente;
     }
 
     /**
      * @param c the c to set
      */
     public void setC(Cliente c) {
-        this.c = c;
+        this.cliente = c;
     }
 
     /**

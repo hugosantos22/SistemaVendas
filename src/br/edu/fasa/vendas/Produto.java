@@ -13,7 +13,10 @@ public class Produto {
     private String nome;
     private float valor;
     private int estoque;
-
+    
+    public Produto(){
+        
+    }
     /**
      * @return the codigo
      */
